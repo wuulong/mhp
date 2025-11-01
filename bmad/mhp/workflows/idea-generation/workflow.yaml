@@ -1,0 +1,31 @@
+# Idea Generation Workflow Configuration for MHP
+name: "idea-generation"
+description: "Facilitates idea generation for hackathons by leveraging creative problem-solving methodologies from the CIS module."
+author: "Gemini CLI"
+
+# Critical variables load from config_source
+config_source: "{project-root}/bmad/mhp/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# This workflow acts as a wrapper around the CIS problem-solving workflow,
+# specifically guiding it towards creative idea generation.
+# It will pass a context that encourages the use of 'creative' methods.
+# The actual invocation logic will be handled by the underlying system
+# that interprets these workflow definitions.
+
+# The 'problem_solving_workflow' is a reference to the CIS problem-solving workflow.
+# The 'context' here is a suggestion for the underlying system to prioritize creative methods.
+# In a real implementation, this might involve passing specific parameters or
+# filtering options to the problem-solving workflow.
+# For now, this serves as a declarative intent.
+problem_solving_workflow:
+  path: "{project-root}/bmad/cis/workflows/problem-solving"
+  context: "Focus on creative idea generation for a hackathon project. Prioritize methods from the 'creative' category in solving-methods.csv."
+
+# Output configuration
+default_output_file: "{output_folder}/hackathon-ideas-{{date}}.md"
+
+standalone: true

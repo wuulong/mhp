@@ -1,0 +1,22 @@
+name: "presentation-prep"
+description: "協助團隊準備具說服力的簡報、演示稿和技術文件。"
+author: "BMad"
+
+# Critical variables load from config_source
+config_source: "{project-root}/bmad/mhp/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# Module path and component files
+installed_path: "{project-root}/bmad/mhp/workflows/presentation-prep"
+template: "{installed_path}/template.md"
+instructions: "{installed_path}/instructions.md"
+validation: "{installed_path}/checklist.md"
+
+# Output configuration
+default_output_file: "{output_folder}/presentation-prep-report-{{date}}.md"
+
+# Invocation control
+standalone: true

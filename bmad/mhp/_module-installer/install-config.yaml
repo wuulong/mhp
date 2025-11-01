@@ -1,0 +1,22 @@
+# Modern Hackathon Playbook Module Configuration
+# This file defines installation questions and module configuration values
+
+code: "mhp"
+name: "Modern Hackathon Playbook"
+default_selected: false # Set to true if this should be selected by default
+
+# Welcome message shown during installation
+prompt:
+  - "歡迎使用新世代黑客松技法模組！"
+  - "本模組旨在賦能黑客松參賽團隊，高效解決問題。"
+# Core config values are automatically inherited:
+## user_name
+## communication_language
+## document_output_language
+## output_folder
+
+# ============================================================================
+# CONFIGURATION FIELDS
+# ============================================================================
+# No user-configurable fields requested for this module.
+# ============================================================================

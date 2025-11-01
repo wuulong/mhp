@@ -1,0 +1,34 @@
+# Full Hackathon Orchestration Workflow Configuration
+name: "full-hackathon-workflow"
+description: "Orchestrates the entire hackathon process, from kickoff to retrospective, ensuring seamless collaboration between all MHP workflows."
+author: "Gemini CLI"
+
+# Critical variables load from config_source
+config_source: "{project-root}/bmad/mhp/config.yaml"
+output_folder: "{config_source}:output_folder"
+user_name: "{config_source}:user_name"
+communication_language: "{config_source}:communication_language"
+date: system-generated
+
+# This workflow defines the sequence of execution for the core MHP workflows.
+# It assumes that each sub-workflow will handle its own inputs/outputs
+# and that a higher-level system will manage the flow of information
+# between these workflows based on their default output files or
+# explicit instructions within their respective instructions.md files.
+
+flow_sequence:
+  - workflow: "{project-root}/bmad/mhp/workflows/hackathon-kickoff"
+    description: "Initiates the hackathon, including problem definition and initial planning."
+  - workflow: "{project-root}/bmad/mhp/workflows/idea-generation"
+    description: "Facilitates creative idea generation for hackathon projects."
+  - workflow: "{project-root}/bmad/mhp/workflows/solution-development"
+    description: "Guides teams through iterative development of their solution."
+  - workflow: "{project-root}/bmad/mhp/workflows/presentation-prep"
+    description: "Assists teams in preparing their final presentations and documentation."
+  - workflow: "{project-root}/bmad/mhp/workflows/hackathon-retrospective"
+    description: "Conducts a review of the hackathon process and lessons learned."
+
+# Output configuration
+default_output_file: "{output_folder}/full-hackathon-summary-{{date}}.md"
+
+standalone: true
