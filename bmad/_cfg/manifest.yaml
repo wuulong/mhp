@@ -1,11 +1,12 @@
 installation:
-  version: 6.0.0-alpha.3
-  installDate: '2025-11-01T01:40:29.864Z'
-  lastUpdated: '2025-11-01T01:40:29.864Z'
+  version: 6.0.0-alpha.0
+  installDate: '2025-11-01T13:52:02.246Z'
+  lastUpdated: '2025-11-01T13:52:02.246Z'
 modules:
   - core
   - bmb
   - bmm
   - cis
+  - mhp
 ides:
   - gemini
