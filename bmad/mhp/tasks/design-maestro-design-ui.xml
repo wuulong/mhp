@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-design-ui.xml" name="使用者介面設計">
+  <objective>根據需求設計使用者介面草圖或線框圖。</objective>
+  <flow>
+    <step n="1" title="了解使用者介面設計需求">
+      <action>詢問使用者希望設計的介面類型、目標、功能和任何特定要求。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 進行介面設計">
+      <action>委派給 bmm/ux-designer 代理程式設計使用者介面草圖或線框圖。</action>
+    </step>
+    <step n="3" title="接收並呈現設計稿">
+      <action>接收 bmm/ux-designer 的設計稿，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

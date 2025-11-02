@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/operations-specialist-test-plan.xml" name="測試計畫制定">
+  <objective>協助制定測試計畫，包括測試範圍、方法和標準。</objective>
+  <flow>
+    <step n="1" title="了解測試需求與目標">
+      <action>釐清專案的測試範圍、類型和預期目標。</action>
+    </step>
+    <step n="2" title="識別測試策略">
+      <action>建議合適的測試方法（例如單元測試、整合測試、系統測試、使用者驗收測試）。</action>
+    </step>
+    <step n="3" title="制定測試案例與標準">
+      <action>指導團隊設計測試案例，並定義測試通過的標準。</action>
+    </step>
+    <step n="4" title="規劃測試環境與資源">
+      <action>建議所需的測試環境、工具和人力資源。</action>
+    </step>
+    <step n="5" title="生成測試計畫報告">
+      <action>撰寫詳細的測試計畫文件。</action>
+    </step>
+  </flow>
+</task>

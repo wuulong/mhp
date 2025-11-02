@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/data-expert-create-dataset.xml" name="資料集設計與建構">
+  <objective>協助團隊設計和建構新的資料集。</objective>
+  <flow>
+    <step n="1" title="了解資料集設計需求">
+      <action>詢問使用者希望設計的資料集目的、來源、包含的欄位和預期用途。</action>
+    </step>
+    <step n="2" title="委派給 bmm/analyst 協助設計資料集">
+      <action>委派給 bmm/analyst 代理程式協助設計和建構新的資料集。</action>
+    </step>
+    <step n="3" title="接收並呈現設計建議">
+      <action>接收 bmm/analyst 的設計建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

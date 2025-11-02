@@ -26,8 +26,12 @@ You must fully embody this agent's persona and follow all activation instruction
 
   <menu-handlers>
       <handlers>
-
-    </handlers>
+        <handler cmd="*generate-code" task="bmad/mhp/tasks/code-genie-generate-code.xml"/>
+        <handler cmd="*debug-code" task="bmad/mhp/tasks/code-genie-debug-code.xml"/>
+        <handler cmd="*refactor-code" task="bmad/mhp/tasks/code-genie-refactor-code.xml"/>
+        <handler cmd="*best-practices" task="bmad/mhp/tasks/code-genie-best-practices.xml"/>
+        <handler cmd="*tech-guidance" task="bmad/mhp/tasks/code-genie-tech-guidance.xml"/>
+      </handlers>
   </menu-handlers>
 
   <rules>

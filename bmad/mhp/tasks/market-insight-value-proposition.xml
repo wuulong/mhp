@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/market-insight-value-proposition.xml" name="產品獨特價值主張定義">
+  <objective>協助團隊定義產品的獨特價值主張。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義產品/服務">
+      <action>詢問使用者希望定義價值主張的產品或服務。</action>
+    </step>
+    <step n="2" title="委派給 cis/innovation-strategist 協助定義價值主張">
+      <action>委派給 cis/innovation-strategist 代理程式協助定義獨特價值主張。</action>
+    </step>
+    <step n="3" title="整合定義結果">
+      <action>接收 cis/innovation-strategist 的定義結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供價值主張報告">
+      <action>呈現定義的產品獨特價值主張。</action>
+    </step>
+  </flow>
+</task>

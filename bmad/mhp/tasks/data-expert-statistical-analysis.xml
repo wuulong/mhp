@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/data-expert-statistical-analysis.xml" name="統計分析">
+  <objective>執行統計分析，揭示資料中的模式與趨勢。</objective>
+  <flow>
+    <step n="1" title="了解統計分析需求">
+      <action>詢問使用者希望進行統計分析的資料集、研究問題和預期結果。</action>
+    </step>
+    <step n="2" title="委派給 bmm/analyst 執行統計分析">
+      <action>委派給 bmm/analyst 代理程式執行統計分析，揭示資料中的模式與趨勢。</action>
+    </step>
+    <step n="3" title="整合分析結果">
+      <action>接收 bmm/analyst 的分析結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供統計分析報告">
+      <action>呈現統計分析的發現、結論和建議。</action>
+    </step>
+  </flow>
+</task>

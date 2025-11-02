@@ -1,28 +1,4 @@
----
-tags:
-  - AIQA
-  - 自學心法
-  - mhp
----
-# 背景說明
-- 預設使用 gemini cli + flash 2.5
-- 檔名就是目錄名，意思是在那個目錄下用 gemini cli 問的紀錄
-- 代號部分： Q 為哈爸提問，A 為 AI 回答，Ｍ是我對這個問題的相關註解，T 為模型提供的思考過程
-- 本文版本： 
 
-
-## 版本歷史
-
-
-# 方法小結
-## system prompt
-- 
-## 情境
-
-# QA
-```dataview 
-TABLE WITHOUT ID Q,M FROM "ChatGPT-QA/dir/AIQA-" 
-```
 ## Q1.1-專案命名
 - M::
 	- 選了：ModernHackathonPlaybook

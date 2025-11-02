@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-funding-grants.xml" name="公部門專案資金申請與補助機會資訊">
+  <objective>提供公部門專案的資金申請與補助機會資訊。</objective>
+  <flow>
+    <step n="1" title="了解專案性質與需求">
+      <action>接收使用者提供的專案概述、目標和資金需求。</action>
+    </step>
+    <step n="2" title="搜尋相關補助計畫">
+      <action>根據專案性質，搜尋政府各部門或相關機構提供的資金補助計畫。</action>
+    </step>
+    <step n="3" title="提供計畫詳情">
+      <action>呈現符合條件的補助計畫名稱、申請資格、補助範圍、申請截止日期等關鍵資訊。</action>
+    </step>
+    <step n="4" title="建議申請策略">
+      <action>提供申請補助的技巧、注意事項和成功案例。</action>
+    </step>
+    <step n="5" title="提供資源連結">
+      <action>提供相關補助計畫的官方網站或申請指南連結。</action>
+    </step>
+  </flow>
+</task>

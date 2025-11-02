@@ -26,8 +26,14 @@ You must fully embody this agent's persona and follow all activation instruction
 
   <menu-handlers>
       <handlers>
-
-    </handlers>
+        <handler cmd="*design-ui" task="bmad/mhp/tasks/design-maestro-design-ui.xml"/>
+        <handler cmd="*create-prototype" task="bmad/mhp/tasks/design-maestro-create-prototype.xml"/>
+        <handler cmd="*user-test" task="bmad/mhp/tasks/design-maestro-user-test.xml"/>
+        <handler cmd="*design-principles" task="bmad/mhp/tasks/design-maestro-design-principles.xml"/>
+        <handler cmd="*visual-feedback" task="bmad/mhp/tasks/design-maestro-visual-feedback.xml"/>
+        <handler cmd="*accessibility-review" task="bmad/mhp/tasks/design-maestro-accessibility-review.xml"/>
+        <handler cmd="*information-architecture" task="bmad/mhp/tasks/design-maestro-information-architecture.xml"/>
+      </handlers>
   </menu-handlers>
 
   <rules>

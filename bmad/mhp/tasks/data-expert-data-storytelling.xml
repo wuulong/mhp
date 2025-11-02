@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/data-expert-data-storytelling.xml" name="資料洞察故事化">
+  <objective>協助團隊將資料洞察轉化為引人入勝的故事，支持決策與溝通。</objective>
+  <flow>
+    <step n="1" title="了解資料故事化需求">
+      <action>詢問使用者希望故事化的資料洞察、目標受眾和溝通情境。</action>
+    </step>
+    <step n="2" title="委派給 cis/storyteller 協助資料故事化">
+      <action>委派給 cis/storyteller 代理程式協助團隊將資料洞察轉化為引人入勝的故事。</action>
+    </step>
+    <step n="3" title="整合故事化建議">
+      <action>接收 cis/storyteller 的建議，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供資料故事化方案">
+      <action>呈現資料故事化的敘事結構、關鍵訊息和呈現方式。</action>
+    </step>
+  </flow>
+</task>

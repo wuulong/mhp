@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-create-prototype.xml" name="互動式原型建立">
+  <objective>協助建立互動式原型，模擬使用者體驗。</objective>
+  <flow>
+    <step n="1" title="了解原型建立需求">
+      <action>詢問使用者希望建立原型的功能範圍、互動細節和預期呈現方式。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 協助建立原型">
+      <action>委派給 bmm/ux-designer 代理程式協助建立互動式原型。</action>
+    </step>
+    <step n="3" title="接收並呈現原型">
+      <action>接收 bmm/ux-designer 的原型，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/code-genie-refactor-code.xml" name="程式碼重構建議">
+  <objective>提供程式碼重構建議，提升品質與效率。</objective>
+  <flow>
+    <step n="1" title="了解程式碼重構需求">
+      <action>詢問使用者希望重構的程式碼片段、重構目標（例如提升可讀性、效能、可維護性）和任何特定要求。</action>
+    </step>
+    <step n="2" title="委派給 bmm/dev 進行重構建議">
+      <action>委派給 bmm/dev 代理程式分析程式碼並提供重構建議。</action>
+    </step>
+    <step n="3" title="接收並呈現重構建議">
+      <action>接收 bmm/dev 的重構建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

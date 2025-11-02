@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/market-insight-go-to-market-strategy.xml" name="產品上市策略規劃">
+  <objective>提供產品上市策略的規劃建議，包括通路、推廣和銷售。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義產品與目標市場">
+      <action>詢問使用者希望規劃上市策略的產品和目標市場。</action>
+    </step>
+    <step n="2" title="委派給 bmm/pm 進行上市策略規劃">
+      <action>委派給 bmm/pm 代理程式協助規劃上市策略。</action>
+    </step>
+    <step n="3" title="整合規劃結果">
+      <action>接收 bmm/pm 的規劃結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供上市策略報告">
+      <action>呈現建議的產品上市策略。</action>
+    </step>
+  </flow>
+</task>

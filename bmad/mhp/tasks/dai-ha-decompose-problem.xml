@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/dai-ha-decompose-problem.xml" name="問題拆解與任務定義">
+  <objective>協助團隊將複雜的黑客松挑戰拆解為可管理、可執行的子任務，並明確定義每個任務的範圍。</objective>
+  <flow>
+    <step n="1" title="了解挑戰與目標">
+      <action>詢問使用者希望拆解的黑客松挑戰和最終目標。</action>
+    </step>
+    <step n="2" title="引導問題拆解">
+      <action>協助使用者將複雜問題拆解為更小、更具體的子問題。</action>
+    </step>
+    <step n="3" title="定義子任務範圍">
+      <action>為每個子問題定義可管理、可執行的子任務，並明確其範圍。</action>
+    </step>
+    <step n="4" title="呈現任務分解結構">
+      <action>以結構化的方式呈現問題分解和子任務清單。</action>
+    </step>
+  </flow>
+</task>

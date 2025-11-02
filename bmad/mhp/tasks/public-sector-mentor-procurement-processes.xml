@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-procurement-processes.xml" name="政府採購流程解釋與合作機制">
+  <objective>解釋政府採購流程，協助團隊理解投標與合作機制。</objective>
+  <flow>
+    <step n="1" title="確認採購類型">
+      <action>釐清使用者想了解的採購類型（例如工程、財物、勞務、公開招標、限制性招標）。</action>
+    </step>
+    <step n="2" title="解釋採購流程">
+      <action>詳細說明政府採購的各個階段，從需求產生到履約驗收。</action>
+    </step>
+    <step n="3" title="說明投標與評選機制">
+      <action>解釋投標文件的準備、評選標準和決標方式。</action>
+    </step>
+    <step n="4" title="提供合作建議">
+      <action>針對團隊的解決方案，建議如何與政府部門建立合作關係或參與採購。</action>
+    </step>
+    <step n="5" title="提供相關法規與資源">
+      <action>提供政府採購法規、相關網站或諮詢管道。</action>
+    </step>
+  </flow>
+</task>

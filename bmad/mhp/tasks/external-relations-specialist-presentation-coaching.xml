@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/external-relations-specialist-presentation-coaching.xml" name="簡報技巧指導">
+  <objective>提供簡報技巧指導，協助團隊準備具說服力的演講。</objective>
+  <flow>
+    <step n="1" title="了解簡報目標與受眾">
+      <action>釐清簡報的目的、時間限制和聽眾背景。</action>
+    </step>
+    <step n="2" title="協助內容架構">
+      <action>指導團隊組織簡報內容，確保邏輯清晰、重點突出。</action>
+    </step>
+    <step n="3" title="提供視覺設計建議">
+      <action>建議簡報投影片的視覺風格、排版和圖表使用。</action>
+    </step>
+    <step n="4" title="演講技巧指導">
+      <action>提供口語表達、肢體語言、互動技巧和時間控制的建議。</action>
+    </step>
+    <step n="5" title="模擬演練與回饋">
+      <action>進行簡報模擬演練，並提供建設性回饋。</action>
+    </step>
+  </flow>
+</task>

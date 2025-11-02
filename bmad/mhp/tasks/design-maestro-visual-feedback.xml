@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-visual-feedback.xml" name="視覺優化建議">
+  <objective>分析設計稿並提供視覺優化建議。</objective>
+  <flow>
+    <step n="1" title="了解視覺優化需求">
+      <action>詢問使用者需要分析的設計稿、優化目標和任何特定關注點。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 提供視覺優化建議">
+      <action>委派給 bmm/ux-designer 代理程式分析設計稿並提供視覺優化建議。</action>
+    </step>
+    <step n="3" title="接收並呈現優化建議">
+      <action>接收 bmm/ux-designer 的優化建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

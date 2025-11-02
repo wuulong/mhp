@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/operations-specialist-incident-response.xml" name="事件響應流程建議">
+  <objective>提供事件響應流程建議，協助處理系統故障。</objective>
+  <flow>
+    <step n="1" title="定義事件類型與嚴重性">
+      <action>協助團隊分類不同類型的系統事件和其影響程度。</action>
+    </step>
+    <step n="2" title="建立響應流程">
+      <action>制定從事件發現、通報、分析、解決到復原的標準操作流程 (SOP)。</action>
+    </step>
+    <step n="3" title="規劃溝通機制">
+      <action>建議內部和外部事件溝通的策略和範本。</action>
+    </step>
+    <step n="4" title="提供事後檢討框架">
+      <action>指導團隊進行事件的事後檢討，從中學習並改進。</action>
+    </step>
+    <step n="5" title="建議預防措施">
+      <action>根據常見事件類型，提出預防性措施和改進建議。</action>
+    </step>
+  </flow>
+</task>

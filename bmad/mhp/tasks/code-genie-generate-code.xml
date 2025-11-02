@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/code-genie-generate-code.xml" name="程式碼片段生成">
+  <objective>根據需求生成程式碼片段。</objective>
+  <flow>
+    <step n="1" title="了解程式碼生成需求">
+      <action>詢問使用者希望生成的程式碼語言、功能、輸入/輸出和任何特定要求。</action>
+    </step>
+    <step n="2" title="委派給 bmm/dev 進行程式碼生成">
+      <action>委派給 bmm/dev 代理程式根據需求生成程式碼片段。</action>
+    </step>
+    <step n="3" title="接收並呈現生成結果">
+      <action>接收 bmm/dev 生成的程式碼，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

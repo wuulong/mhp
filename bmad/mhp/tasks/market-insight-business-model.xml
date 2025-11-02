@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/market-insight-business-model.xml" name="商業模式設計與盈利策略建議">
+  <objective>提供商業模式設計和盈利策略建議。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義產品/服務">
+      <action>詢問使用者希望設計商業模式的產品或服務。</action>
+    </step>
+    <step n="2" title="委派給 cis/innovation-strategist 進行商業模式設計">
+      <action>委派給 cis/innovation-strategist 代理程式協助商業模式設計和盈利策略。</action>
+    </step>
+    <step n="3" title="整合設計結果">
+      <action>接收 cis/innovation-strategist 的設計結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供商業模式建議報告">
+      <action>呈現建議的商業模式和盈利策略。</action>
+    </step>
+  </flow>
+</task>

@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/market-insight-pricing-strategy.xml" name="產品定價策略制定">
+  <objective>協助團隊制定合理的產品定價策略，以最大化市場接受度和盈利。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義產品與市場定位">
+      <action>詢問使用者希望制定定價策略的產品和市場定位。</action>
+    </step>
+    <step n="2" title="委派給 bmm/pm 進行定價策略制定">
+      <action>委派給 bmm/pm 代理程式協助制定定價策略。</action>
+    </step>
+    <step n="3" title="整合制定結果">
+      <action>接收 bmm/pm 的制定結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供定價策略報告">
+      <action>呈現建議的產品定價策略。</action>
+    </step>
+  </flow>
+</task>

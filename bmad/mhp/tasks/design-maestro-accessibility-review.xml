@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-accessibility-review.xml" name="設計可訪問性評估">
+  <objective>評估設計的可訪問性，確保符合無障礙標準。</objective>
+  <flow>
+    <step n="1" title="了解可訪問性評估需求">
+      <action>詢問使用者需要評估的設計稿、目標用戶群體和相關無障礙標準。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 進行可訪問性評估">
+      <action>委派給 bmm/ux-designer 代理程式評估設計的可訪問性，確保符合無障礙標準。</action>
+    </step>
+    <step n="3" title="接收並呈現評估結果">
+      <action>接收 bmm/ux-designer 的評估結果，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

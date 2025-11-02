@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-design-principles.xml" name="設計原則和最佳實踐指導">
+  <objective>提供設計原則和最佳實踐指導。</objective>
+  <flow>
+    <step n="1" title="了解設計原則需求">
+      <action>詢問使用者希望了解的設計原則類型（例如 UI/UX、互動設計、視覺設計）和具體情境。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 提供設計原則指導">
+      <action>委派給 bmm/ux-designer 代理程式提供設計原則和最佳實踐指導。</action>
+    </step>
+    <step n="3" title="接收並呈現指導建議">
+      <action>接收 bmm/ux-designer 的指導建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

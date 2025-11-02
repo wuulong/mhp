@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-legal-compliance.xml" name="法規遵循建議與風險評估">
+  <objective>針對解決方案提供法規遵循建議與風險評估。</objective>
+  <flow>
+    <step n="1" title="收集解決方案詳情與相關法規">
+      <action>接收使用者提供的解決方案描述，並識別相關的法律法規。</action>
+    </step>
+    <step n="2" title="進行法規符合性檢查">
+      <action>逐一比對解決方案與相關法規條文，判斷符合性。</action>
+    </step>
+    <step n="3" title="識別潛在法律風險">
+      <action>找出解決方案可能存在的法律漏洞、違規點或潛在爭議。</action>
+    </step>
+    <step n="4" title="提供遵循建議">
+      <action>針對不符合或有風險的點，提出具體的法規遵循建議和改進方案。</action>
+    </step>
+    <step n="5" title="生成風險評估報告">
+      <action>總結法規符合性分析、潛在風險及建議，形成報告。</action>
+    </step>
+  </flow>
+</task>

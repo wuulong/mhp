@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-public-value.xml" name="公共價值與公民需求結合指導">
+  <objective>指導如何將解決方案與公共價值和公民需求結合。</objective>
+  <flow>
+    <step n="1" title="理解解決方案與目標">
+      <action>接收使用者提供的解決方案描述和預期目標。</action>
+    </step>
+    <step n="2" title="識別相關公共價值">
+      <action>協助使用者思考解決方案能體現哪些公共價值（例如公平、效率、透明、永續）。</action>
+    </step>
+    <step n="3" title="分析公民需求">
+      <action>探討解決方案如何回應或滿足特定的公民群體需求。</action>
+    </step>
+    <step n="4" title="建議結合策略">
+      <action>提供具體方法，將解決方案的設計、實施和溝通與公共價值和公民需求緊密結合。</action>
+    </step>
+    <step n="5" title="評估社會影響">
+      <action>協助評估解決方案可能帶來的社會效益和影響。</action>
+    </step>
+  </flow>
+</task>

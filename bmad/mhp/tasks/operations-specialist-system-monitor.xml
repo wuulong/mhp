@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/operations-specialist-system-monitor.xml" name="系統監控建議">
+  <objective>提供系統監控建議，確保系統穩定運行。</objective>
+  <flow>
+    <step n="1" title="評估系統架構與關鍵指標">
+      <action>了解系統的組成部分，識別需要監控的關鍵性能指標 (KPIs)。</action>
+    </step>
+    <step n="2" title="建議監控工具與平台">
+      <action>推薦合適的系統監控工具和儀表板。</action>
+    </step>
+    <step n="3" title="設定警報機制">
+      <action>指導團隊設定閾值和警報規則，以便及時發現異常。</action>
+    </step>
+    <step n="4" title="規劃日誌管理策略">
+      <action>建議有效的日誌收集、儲存和分析方案。</action>
+    </step>
+    <step n="5" title="提供監控報告範本">
+      <action>提供系統健康狀態和性能趨勢的報告範本。</action>
+    </step>
+  </flow>
+</task>

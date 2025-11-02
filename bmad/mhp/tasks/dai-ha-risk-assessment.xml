@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/dai-ha-risk-assessment.xml" name="風險評估與應對策略協調">
+  <objective>協助團隊識別潛在風險，評估其影響，並制定應對策略。</objective>
+  <flow>
+    <step n="1" title="了解風險評估範圍">
+      <action>詢問使用者希望評估的專案、領域和潛在風險類型。</action>
+    </step>
+    <step n="2" title="引導風險識別">
+      <action>協助使用者識別潛在的技術、市場、營運、法律等風險。</action>
+    </step>
+    <step n="3" title="委派給相關代理程式進行風險分析">
+      <action>根據風險類型，委派給 market-insight、public-sector-mentor 或 operations-specialist 的相關功能進行詳細分析。</action>
+    </step>
+    <step n="4" title="整合風險分析結果">
+      <action>接收各代理程式的分析結果，並進行整合。</action>
+    </step>
+    <step n="5" title="提供風險評估報告與應對策略">
+      <action>呈現綜合風險評估報告和建議的應對策略。</action>
+    </step>
+  </flow>
+</task>

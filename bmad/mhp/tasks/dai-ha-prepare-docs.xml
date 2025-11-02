@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/dai-ha-prepare-docs.xml" name="文件準備協調">
+  <objective>協助團隊撰寫技術文件、專案報告，並準備具說服力的簡報內容。</objective>
+  <flow>
+    <step n="1" title="了解文件準備需求">
+      <action>詢問使用者希望準備的文件類型（技術文件、內部報告、對外簡報）、內容和目標受眾。</action>
+    </step>
+    <step n="2" title="委派給相關代理程式執行">
+      <action>根據文件類型，委派給 external-relations-specialist 的 *generate-external-report 或 *presentation-coaching，或 operations-specialist 的 *generate-internal-report。</action>
+    </step>
+    <step n="3" title="整合並呈現結果">
+      <action>接收相關代理程式的結果，並以協調者的角度進行整合和呈現。</action>
+    </step>
+  </flow>
+</task>

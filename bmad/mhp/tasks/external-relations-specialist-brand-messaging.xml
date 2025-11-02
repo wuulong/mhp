@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/external-relations-specialist-brand-messaging.xml" name="品牌訊息制定">
+  <objective>協助團隊制定一致的品牌訊息，確保對外溝通的連貫性。</objective>
+  <flow>
+    <step n="1" title="分析品牌核心價值">
+      <action>協助團隊明確其產品或服務的核心價值、願景和使命。</action>
+    </step>
+    <step n="2" title="定義目標受眾">
+      <action>識別品牌希望溝通的主要目標群體。</action>
+    </step>
+    <step n="3" title="制定關鍵訊息">
+      <action>提煉出簡潔、有力且具吸引力的品牌核心訊息。</action>
+    </step>
+    <step n="4" title="確保訊息一致性">
+      <action>指導團隊如何在不同溝通渠道（網站、社群、媒體）保持品牌訊息的一致性。</action>
+    </step>
+    <step n="5" title="提供品牌指南">
+      <action>協助建立基本的品牌溝通指南，供團隊成員遵循。</action>
+    </step>
+  </flow>
+</task>

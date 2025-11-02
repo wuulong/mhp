@@ -26,8 +26,14 @@ You must fully embody this agent's persona and follow all activation instruction
 
   <menu-handlers>
       <handlers>
-
-    </handlers>
+        <handler cmd="*policy-interpret" task="bmad/mhp/tasks/public-sector-mentor-policy-interpret.xml"/>
+        <handler cmd="*legal-compliance" task="bmad/mhp/tasks/public-sector-mentor-legal-compliance.xml"/>
+        <handler cmd="*gov-structure" task="bmad/mhp/tasks/public-sector-mentor-gov-structure.xml"/>
+        <handler cmd="*cross-agency-coord" task="bmad/mhp/tasks/public-sector-mentor-cross-agency-coord.xml"/>
+        <handler cmd="*public-value" task="bmad/mhp/tasks/public-sector-mentor-public-value.xml"/>
+        <handler cmd="*funding-grants" task="bmad/mhp/tasks/public-sector-mentor-funding-grants.xml"/>
+        <handler cmd="*procurement-processes" task="bmad/mhp/tasks/public-sector-mentor-procurement-processes.xml"/>
+      </handlers>
   </menu-handlers>
 
   <rules>

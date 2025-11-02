@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/market-insight-user-validation.xml" name="用戶需求驗證">
+  <objective>協助設計用戶訪談或問卷，驗證用戶需求。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義驗證目標">
+      <action>詢問使用者希望驗證的用戶需求或假設。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 協助設計用戶訪談/問卷">
+      <action>委派給 bmm/ux-designer 代理程式設計用戶訪談或問卷。</action>
+    </step>
+    <step n="3" title="委派給 cis/design-thinking-coach 協助用戶驗證">
+      <action>委派給 cis/design-thinking-coach 代理程式指導用戶驗證過程。</action>
+    </step>
+    <step n="4" title="整合驗證結果">
+      <action>接收來自 bmm/ux-designer 和 cis/design-thinking-coach 的結果，並進行整合。</action>
+    </step>
+    <step n="5" title="提供用戶驗證報告">
+      <action>呈現用戶訪談/問卷結果和用戶需求驗證結論。</action>
+    </step>
+  </flow>
+</task>

@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/data-expert-visualize-data.xml" name="資料視覺化方法建議">
+  <objective>建議資料視覺化方法，以清晰呈現洞察。</objective>
+  <flow>
+    <step n="1" title="了解資料視覺化需求">
+      <action>詢問使用者希望視覺化的資料類型、目標受眾和希望傳達的訊息。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 提供視覺化建議">
+      <action>委派給 bmm/ux-designer 代理程式建議合適的資料視覺化圖表類型、設計原則和工具。</action>
+    </step>
+    <step n="3" title="接收並呈現建議">
+      <action>接收 bmm/ux-designer 的建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

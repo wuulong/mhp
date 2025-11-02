@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-cross-agency-coord.xml" name="跨部門協調策略與溝通技巧">
+  <objective>提供跨部門協調的策略與溝通技巧。</objective>
+  <flow>
+    <step n="1" title="分析協調情境">
+      <action>了解使用者面臨的具體跨部門協調挑戰和目標。</action>
+    </step>
+    <step n="2" title="識別關鍵利害關係人">
+      <action>找出涉及的各個部門及其主要代表。</action>
+    </step>
+    <step n="3" title="建議協調策略">
+      <action>根據情境，提供有效的協調方法（例如建立共同目標、定期會議、資訊共享平台）。</action>
+    </step>
+    <step n="4" title="提供溝通技巧">
+      <action>教授如何在跨部門溝調中有效表達、傾聽、處理異議和建立共識。</action>
+    </step>
+    <step n="5" title="案例分析或情境演練">
+      <action>提供相關案例或引導使用者進行情境演練，加深理解。</action>
+    </step>
+  </flow>
+</task>

@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/code-genie-tech-guidance.xml" name="技術選型與架構設計指導">
+  <objective>提供技術選型和架構設計指導。</objective>
+  <flow>
+    <step n="1" title="了解技術選型與架構設計需求">
+      <action>詢問使用者希望獲得技術選型或架構設計指導的專案背景、需求和約束條件。</action>
+    </step>
+    <step n="2" title="委派給 bmm/architect 提供指導">
+      <action>委派給 bmm/architect 代理程式提供技術選型和架構設計指導。</action>
+    </step>
+    <step n="3" title="接收並呈現指導建議">
+      <action>接收 bmm/architect 的指導建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

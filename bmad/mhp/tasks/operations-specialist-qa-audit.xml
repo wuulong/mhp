@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/operations-specialist-qa-audit.xml" name="品質保證審核">
+  <objective>執行品質保證審核，確保產品符合標準。</objective>
+  <flow>
+    <step n="1" title="確認審核範圍與標準">
+      <action>釐清審核的目標、範圍和依據的品質標準或規範。</action>
+    </step>
+    <step n="2" title="收集審核證據">
+      <action>收集相關文件、程式碼、測試報告和流程記錄。</action>
+    </step>
+    <step n="3" title="執行審核檢查">
+      <action>根據標準對產品或流程進行詳細檢查和評估。</action>
+    </step>
+    <step n="4" title="識別不符合項與改進建議">
+      <action>找出不符合標準的地方，並提出具體的改進建議。</action>
+    </step>
+    <step n="5" title="生成審核報告">
+      <action>撰寫品質保證審核報告，總結發現和建議。</action>
+    </step>
+  </flow>
+</task>

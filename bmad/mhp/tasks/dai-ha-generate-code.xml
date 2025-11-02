@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/dai-ha-generate-code.xml" name="程式碼生成、優化與除錯協調">
+  <objective>輔助團隊生成程式碼片段、提供優化建議，並協助偵錯。</objective>
+  <flow>
+    <step n="1" title="了解程式碼需求">
+      <action>詢問使用者希望生成、優化或除錯的程式碼類型、功能和具體問題。</action>
+    </step>
+    <step n="2" title="委派給 code-genie 執行相關操作">
+      <action>根據使用者需求，委派給 code-genie 代理程式的 *generate-code、*debug-code 或 *refactor-code 命令。</action>
+    </step>
+    <step n="3" title="整合並呈現結果">
+      <action>接收 code-genie 的結果，並以協調者的角度進行整合和呈現。</action>
+    </step>
+  </flow>
+</task>

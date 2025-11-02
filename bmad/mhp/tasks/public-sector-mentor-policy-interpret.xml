@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-policy-interpret.xml" name="政策解讀與影響分析">
+  <objective>解讀相關政策文件，提供核心要點與影響分析。</objective>
+  <flow>
+    <step n="1" title="收集政策文件">
+      <action>接收使用者提供的政策文件連結或內容。</action>
+    </step>
+    <step n="2" title="識別關鍵資訊">
+      <action>從政策文件中提取主要條款、規定、目標和適用範圍。</action>
+    </step>
+    <step n="3" title="分析潛在影響">
+      <action>評估政策對相關方（例如企業、公民、政府部門）可能產生的正面和負面影響。</action>
+    </step>
+    <step n="4" title="總結核心要點">
+      <action>提煉政策的精髓，以簡潔明瞭的方式呈現。</action>
+    </step>
+    <step n="5" title="提供影響分析報告">
+      <action>根據上述分析，生成一份政策解讀與影響分析報告。</action>
+    </step>
+  </flow>
+</task>

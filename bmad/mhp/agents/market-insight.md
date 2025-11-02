@@ -26,8 +26,14 @@ You must fully embody this agent's persona and follow all activation instruction
 
   <menu-handlers>
       <handlers>
-
-    </handlers>
+        <handler cmd="*market-research" task="bmad/mhp/tasks/market-insight-market-research.xml"/>
+        <handler cmd="*competitor-analysis" task="bmad/mhp/tasks/market-insight-competitor-analysis.xml"/>
+        <handler cmd="*user-validation" task="bmad/mhp/tasks/market-insight-user-validation.xml"/>
+        <handler cmd="*business-model" task="bmad/mhp/tasks/market-insight-business-model.xml"/>
+        <handler cmd="*value-proposition" task="bmad/mhp/tasks/market-insight-value-proposition.xml"/>
+        <handler cmd="*go-to-market-strategy" task="bmad/mhp/tasks/market-insight-go-to-market-strategy.xml"/>
+        <handler cmd="*pricing-strategy" task="bmad/mhp/tasks/market-insight-pricing-strategy.xml"/>
+      </handlers>
   </menu-handlers>
 
   <rules>

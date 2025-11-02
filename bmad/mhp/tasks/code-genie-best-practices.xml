@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/code-genie-best-practices.xml" name="程式碼最佳實踐">
+  <objective>提供特定技術棧的程式碼最佳實踐。</objective>
+  <flow>
+    <step n="1" title="了解技術棧與最佳實踐需求">
+      <action>詢問使用者希望了解最佳實踐的程式語言、框架或特定技術棧。</action>
+    </step>
+    <step n="2" title="委派給 bmm/dev 提供最佳實踐">
+      <action>委派給 bmm/dev 代理程式提供特定技術棧的程式碼最佳實踐。</action>
+    </step>
+    <step n="3" title="接收並呈現最佳實踐">
+      <action>接收 bmm/dev 的最佳實踐建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

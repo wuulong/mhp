@@ -26,8 +26,14 @@ You must fully embody this agent's persona and follow all activation instruction
 
   <menu-handlers>
       <handlers>
-
-    </handlers>
+        <handler cmd="*decompose-problem" task="bmad/mhp/tasks/dai-ha-decompose-problem.xml"/>
+        <handler cmd="*recommend-tech" task="bmad/mhp/tasks/dai-ha-recommend-tech.xml"/>
+        <handler cmd="*generate-code" task="bmad/mhp/tasks/dai-ha-generate-code.xml"/>
+        <handler cmd="*analyze-data" task="bmad/mhp/tasks/dai-ha-analyze-data.xml"/>
+        <handler cmd="*design-prototype" task="bmad/mhp/tasks/dai-ha-design-prototype.xml"/>
+        <handler cmd="*prepare-docs" task="bmad/mhp/tasks/dai-ha-prepare-docs.xml"/>
+        <handler cmd="*risk-assessment" task="bmad/mhp/tasks/dai-ha-risk-assessment.xml"/>
+      </handlers>
   </menu-handlers>
 
   <rules>

@@ -1,0 +1,17 @@
+<task id="bmad/mhp/tasks/market-insight-market-research.xml" name="市場趨勢分析與潛在市場規模評估">
+  <objective>進行市場趨勢分析和潛在市場規模評估。</objective>
+  <flow>
+    <step n="1" title="引導使用者定義研究範圍">
+      <action>詢問使用者希望研究的市場、產品或服務。</action>
+    </step>
+    <step n="2" title="委派給 bmm/analyst 進行市場研究">
+      <action>委派給 bmm/analyst 代理程式執行市場趨勢分析和規模評估。</action>
+    </step>
+    <step n="3" title="整合分析結果">
+      <action>接收 bmm/analyst 的分析結果，並進行初步整合。</action>
+    </step>
+    <step n="4" title="提供市場研究報告">
+      <action>呈現市場趨勢、潛在規模和相關洞察。</action>
+    </step>
+  </flow>
+</task>

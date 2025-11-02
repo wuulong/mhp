@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/data-expert-data-governance.xml" name="資料治理和倫理使用指導">
+  <objective>提供資料治理和倫理使用的指導。</objective>
+  <flow>
+    <step n="1" title="了解資料治理需求">
+      <action>詢問使用者在資料治理和倫理使用方面遇到的挑戰或關注點。</action>
+    </step>
+    <step n="2" title="提供資料治理原則與實踐">
+      <action>提供資料生命週期管理、資料品質、隱私保護和合規性等方面的指導。</action>
+    </step>
+    <step n="3" title="提供倫理使用建議">
+      <action>針對資料的收集、儲存、分析和分享，提供倫理考量和建議。</action>
+    </step>
+  </flow>
+</task>

@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/public-sector-mentor-gov-structure.xml" name="政府組織架構與權責說明">
+  <objective>說明政府組織架構與權責，協助團隊找到正確的對接窗口。</objective>
+  <flow>
+    <step n="1" title="確認查詢範圍">
+      <action>釐清使用者想了解的政府層級（中央、地方）或特定領域。</action>
+    </step>
+    <step n="2" title="提供組織架構圖或說明">
+      <action>呈現相關政府部門的層級關係和職能劃分。</action>
+    </step>
+    <step n="3" title="解釋各部門權責">
+      <action>詳細說明各部門的主要職責、服務範圍和決策權限。</action>
+    </step>
+    <step n="4" title="建議對接窗口">
+      <action>根據團隊的需求，推薦最合適的政府部門或聯絡人。</action>
+    </step>
+    <step n="5" title="提供聯絡資訊或指引">
+      <action>提供如何聯繫這些部門或窗口的具體方式。</action>
+    </step>
+  </flow>
+</task>

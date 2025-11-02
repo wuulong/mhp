@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/external-relations-specialist-generate-external-report.xml" name="對外發布報告生成">
+  <objective>根據專案進度或成果生成對外發布的報告。</objective>
+  <flow>
+    <step n="1" title="確認報告目的與格式">
+      <action>釐清報告的用途（例如年報、季度更新、成果發表）和所需的格式。</action>
+    </step>
+    <step n="2" title="收集相關數據與內容">
+      <action>收集專案進度、關鍵成果、數據統計和相關圖片/圖表。</action>
+    </step>
+    <step n="3" title="撰寫報告草稿">
+      <action>根據報告目的和受眾，撰寫報告的各個章節內容。</action>
+    </step>
+    <step n="4" title="數據視覺化與排版">
+      <action>協助將數據轉化為清晰的圖表，並進行報告的整體排版與設計。</action>
+    </step>
+    <step n="5" title="審閱與發布準備">
+      <action>審閱報告內容，確保準確性、專業性，並準備發布。</action>
+    </step>
+  </flow>
+</task>

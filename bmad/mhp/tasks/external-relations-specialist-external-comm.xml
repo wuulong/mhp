@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/external-relations-specialist-external-comm.xml" name="對外溝通材料準備">
+  <objective>協助準備對外溝通材料，如新聞稿、社群貼文。</objective>
+  <flow>
+    <step n="1" title="了解溝通目標與受眾">
+      <action>釐清此次對外溝通的目的和目標群體。</action>
+    </step>
+    <step n="2" title="收集核心資訊">
+      <action>收集需要傳達的關鍵內容、數據和亮點。</action>
+    </step>
+    <step n="3" title="撰寫溝通材料草稿">
+      <action>根據目標和受眾，撰寫新聞稿、社群貼文、電子郵件等草稿。</action>
+    </step>
+    <step n="4" title="審閱與潤飾">
+      <action>確保材料內容清晰、精準、符合品牌調性，並進行語法和風格的潤飾。</action>
+    </step>
+    <step n="5" title="提供發布建議">
+      <action>建議合適的發布渠道和時機。</action>
+    </step>
+  </flow>
+</task>

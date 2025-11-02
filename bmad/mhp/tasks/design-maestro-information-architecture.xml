@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-information-architecture.xml" name="資訊架構規劃">
+  <objective>協助規劃和組織內容結構，提升資訊的查找效率和使用者理解。</objective>
+  <flow>
+    <step n="1" title="了解資訊架構規劃需求">
+      <action>詢問使用者需要規劃資訊架構的產品/網站、內容範圍和目標用戶。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 協助規劃資訊架構">
+      <action>委派給 bmm/ux-designer 代理程式協助規劃和組織內容結構。</action>
+    </step>
+    <step n="3" title="接收並呈現規劃建議">
+      <action>接收 bmm/ux-designer 的規劃建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

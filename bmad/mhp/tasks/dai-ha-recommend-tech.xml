@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/dai-ha-recommend-tech.xml" name="技術棧與資源推薦">
+  <objective>根據專案需求，推薦合適的技術棧、開發工具和開源資源。</objective>
+  <flow>
+    <step n="1" title="了解專案需求與約束">
+      <action>詢問使用者專案的類型、規模、預期功能、團隊技能和任何技術限制。</action>
+    </step>
+    <step n="2" title="委派給 code-genie 的 *tech-guidance">
+      <action>委派給 code-genie 代理程式的 *tech-guidance 命令來獲取技術選型和架構設計指導。</action>
+    </step>
+    <step n="3" title="整合並呈現建議">
+      <action>接收 code-genie 的建議，並以協調者的角度進行整合和呈現。</action>
+    </step>
+  </flow>
+</task>

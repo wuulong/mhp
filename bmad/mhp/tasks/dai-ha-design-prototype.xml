@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/dai-ha-design-prototype.xml" name="原型設計與使用者體驗測試協調">
+  <objective>提供原型設計的建議，並指導團隊如何進行使用者體驗測試和優化。</objective>
+  <flow>
+    <step n="1" title="了解原型設計與測試需求">
+      <action>詢問使用者希望設計的原型類型、功能範圍和測試目標。</action>
+    </step>
+    <step n="2" title="委派給 design-maestro 執行相關操作">
+      <action>委派給 design-maestro 代理程式的 *create-prototype 或 *user-test 命令。</action>
+    </step>
+    <step n="3" title="整合並呈現結果">
+      <action>接收 design-maestro 的結果，並以協調者的角度進行整合和呈現。</action>
+    </step>
+  </flow>
+</task>

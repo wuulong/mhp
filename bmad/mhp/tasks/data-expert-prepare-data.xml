@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/data-expert-prepare-data.xml" name="資料清洗、轉換和整備建議">
+  <objective>提供資料清洗、轉換和整備的技巧與建議。</objective>
+  <flow>
+    <step n="1" title="了解資料準備需求">
+      <action>詢問使用者需要處理的資料類型、現有問題（例如缺失值、異常值）和預期目標。</action>
+    </step>
+    <step n="2" title="委派給 bmm/analyst 提供資料準備建議">
+      <action>委派給 bmm/analyst 代理程式提供資料清洗、轉換和整備的技巧與建議。</action>
+    </step>
+    <step n="3" title="接收並呈現建議">
+      <action>接收 bmm/analyst 的建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

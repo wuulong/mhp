@@ -1,0 +1,14 @@
+<task id="bmad/mhp/tasks/design-maestro-user-test.xml" name="使用者測試計畫與回饋分析">
+  <objective>提供使用者測試計畫與回饋分析建議。</objective>
+  <flow>
+    <step n="1" title="了解使用者測試需求">
+      <action>詢問使用者希望進行使用者測試的產品/功能、測試目標和目標用戶。</action>
+    </step>
+    <step n="2" title="委派給 bmm/ux-designer 協助使用者測試">
+      <action>委派給 bmm/ux-designer 代理程式協助制定使用者測試計畫與回饋分析建議。</action>
+    </step>
+    <step n="3" title="接收並呈現測試建議">
+      <action>接收 bmm/ux-designer 的測試建議，並呈現給使用者。</action>
+    </step>
+  </flow>
+</task>

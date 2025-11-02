@@ -1,0 +1,20 @@
+<task id="bmad/mhp/tasks/external-relations-specialist-stakeholder-coord.xml" name="利害關係人溝通與協調策略">
+  <objective>提供利害關係人溝通與協調策略。</objective>
+  <flow>
+    <step n="1" title="識別利害關係人">
+      <action>協助團隊識別專案內外部所有相關的利害關係人。</action>
+    </step>
+    <step n="2" title="分析利害關係人需求與期望">
+      <action>了解各方對專案的關注點、利益和潛在影響。</action>
+    </step>
+    <step n="3" title="制定溝通策略">
+      <action>根據分析結果，制定針對不同利害關係人的溝通計畫和頻率。</action>
+    </step>
+    <step n="4" title="提供協調技巧">
+      <action>教授如何在多方利益衝突時進行有效協調和談判。</action>
+    </step>
+    <step n="5" title="建立關係維護機制">
+      <action>建議如何長期維護與利害關係人的良好關係。</action>
+    </step>
+  </flow>
+</task>
