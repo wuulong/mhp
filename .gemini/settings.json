@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "gov-openapi-agent-mcp":{
+      "url":"http://127.0.0.1:8800/sse"
+    }
+  },
+  "general": {
+    "preferredEditor": "vim"
+  },
+  "tools": {
+    "sandbox": false
+  },
+  "telemetry": {
+    "enabled": false,
+    "target": "local"
+  },
+  "ui": {
+    "theme": "Google Code"
+  }
+}

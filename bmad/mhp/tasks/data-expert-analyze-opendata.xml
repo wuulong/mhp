@@ -1,17 +1,17 @@
 <task id="bmad/mhp/tasks/data-expert-analyze-opendata.xml" name="分析開放資料集">
   <objective>分析開放資料集，提取關鍵資訊。</objective>
   <flow>
-    <step n="1" title="了解開放資料集分析需求">
-      <action>詢問使用者希望分析的開放資料集來源、目標和關注點。</action>
+    <step n="1" title="理解檔案型開放資料處理方法">
+      <action>閱讀並理解 docs/file_based_open_data_method.md 中描述的檔案型開放資料處理方法。</action>
     </step>
-    <step n="2" title="委派給 bmm/analyst 進行開放資料分析">
-      <action>委派給 bmm/analyst 代理程式分析開放資料集，提取關鍵資訊。</action>
+    <step n="2" title="分析檔案型開放資料">
+      <action>根據 docs/file_based_open_data_method.md 中描述的方法，或透過 process_user_prompt (gov-openapi-agent-mcp MCP Server) 工具，協助分析檔案型開放資料。</action>
     </step>
-    <step n="3" title="整合分析結果">
-      <action>接收 bmm/analyst 的分析結果，並進行初步整合。</action>
+    <step n="3" title="詢問使用者分析目標">
+      <action>詢問使用者希望分析的具體檔案型開放資料以及分析目標。</action>
     </step>
-    <step n="4" title="提供開放資料分析報告">
-      <action>呈現開放資料集的關鍵洞察和發現。</action>
+    <step n="4" title="提供分析結果">
+      <action>根據分析結果，向使用者提供關鍵洞察和發現。</action>
     </step>
   </flow>
 </task>
