@@ -77,7 +77,6 @@ type,name,module,path,hash
 "agent","market-insight","mhp","bmad/mhp/agents/market-insight.md","2f2667f2ac4130e9c70f8296a0bed9030606275527b41598a7b989b601d90bd9"
 "agent","operations-specialist","mhp","bmad/mhp/agents/operations-specialist.md","74b5910fa076cb2426159f9ecccde4f2d056be7b79609031a557c5ca12b9f9b8"
 "agent","public-sector-mentor","mhp","bmad/mhp/agents/public-sector-mentor.md","30d16b69b4f6ee7518fb9b620698a38307908ecabd4ec8265ff1750b0a5c613f"
-"agent","spokesperson","mhp","bmad/mhp/agents/spokesperson.md","493a34d13376a7bf6eec02a489cb369c75cc5bc0e1ecb07812ec39f7da492411"
 "task","code-genie-best-practices","mhp","bmad/mhp/tasks/code-genie-best-practices.xml","ba3a7baa2b6dbdec3bc763edefc163e11ad38ef8ead2d7b240f4250ed2569251"
 "task","code-genie-debug-code","mhp","bmad/mhp/tasks/code-genie-debug-code.xml","6c0183248051890a99c96b881d9bcdfdcb9ab8914ae3ad1876808a1b4b6c7779"
 "task","code-genie-generate-code","mhp","bmad/mhp/tasks/code-genie-generate-code.xml","c54e4da02e27b9cfdfcad765248d44b3898408d06ce6c0e829e3a6f3e52546b1"
