@@ -110,12 +110,13 @@ bmad install mhp
 可使用每個 agent 的命令來執行這些任務，也可以使用 IDE 的命令來執行。如 Gemini CLI:
   /bmad-task-mhp-operations-specialist-generate-internal-report - Executes the Operations Specialist Generate Internal Report task from the BMad Method.  
 
-## 快速入門
+
+## 快速入門(不同 IDE 使用命令略有不同, 以下為 gemini CLI 範例)
 
 1.  **載入主要代理程式**：
 
     ```
-    agent dai-ha
+    /bmad-agent-mhp-dai-ha
     ```
 
 2.  **查看可用指令**：
@@ -126,28 +127,103 @@ bmad install mhp
 
 3.  **運行主要工作流程**：
     ```
-    workflow /bmad/mhp/workflows/hackathon-kickoff/
+    /bmad-task-core-workflow hackathon-kickoff
+    ```
+
+
+4.  **運行某 task**：
+    ```
+    /bmad-task-mhp-data-expert-analyze-opendata
     ```
 
 ## 模組結構
 
 ```
-mhp/
-├── agents/
-│   └── dai-ha.agent.yaml
-├── workflows/
-│   └── hackathon-kickoff/
-│       ├── checklist.md
-│       ├── data/
-│       ├── instructions.md
-│       ├── README.md
-│       └── workflow.yaml
-├── tasks/
-├── templates/
-├── data/
-├── _module-installer/
-│   └── install-config.yaml
-└── README.md
+mhp/bmad/mhp> tree -L 2           
+.
+├── README.md
+├── TODO.md
+├── _module-installer
+│   └── install-config.yaml
+├── agents
+│   ├── code-genie.agent.yaml
+│   ├── code-genie.md
+│   ├── dai-ha.agent.yaml
+│   ├── dai-ha.md
+│   ├── data-expert.agent.yaml
+│   ├── data-expert.md
+│   ├── design-maestro.agent.yaml
+│   ├── design-maestro.md
+│   ├── external-relations-specialist.md
+│   ├── market-insight.agent.yaml
+│   ├── market-insight.md
+│   ├── operations-specialist.md
+│   ├── public-sector-mentor.agent.yaml
+│   └── public-sector-mentor.md
+├── config.yaml
+├── data
+│   └── AIQA-MHP_ModernHackathonPlaybook.md
+├── tasks
+│   ├── code-genie-best-practices.xml
+│   ├── code-genie-debug-code.xml
+│   ├── code-genie-generate-code.xml
+│   ├── code-genie-refactor-code.xml
+│   ├── code-genie-tech-guidance.xml
+│   ├── dai-ha-analyze-data.xml
+│   ├── dai-ha-decompose-problem.xml
+│   ├── dai-ha-design-prototype.xml
+│   ├── dai-ha-generate-code.xml
+│   ├── dai-ha-prepare-docs.xml
+│   ├── dai-ha-recommend-tech.xml
+│   ├── dai-ha-risk-assessment.xml
+│   ├── data-expert-analyze-opendata.xml
+│   ├── data-expert-create-dataset.xml
+│   ├── data-expert-data-governance.xml
+│   ├── data-expert-data-storytelling.xml
+│   ├── data-expert-prepare-data.xml
+│   ├── data-expert-statistical-analysis.xml
+│   ├── data-expert-visualize-data.xml
+│   ├── design-maestro-accessibility-review.xml
+│   ├── design-maestro-create-prototype.xml
+│   ├── design-maestro-design-principles.xml
+│   ├── design-maestro-design-ui.xml
+│   ├── design-maestro-information-architecture.xml
+│   ├── design-maestro-user-test.xml
+│   ├── design-maestro-visual-feedback.xml
+│   ├── external-relations-specialist-brand-messaging.xml
+│   ├── external-relations-specialist-external-comm.xml
+│   ├── external-relations-specialist-generate-external-report.xml
+│   ├── external-relations-specialist-presentation-coaching.xml
+│   ├── external-relations-specialist-stakeholder-coord.xml
+│   ├── market-insight-business-model.xml
+│   ├── market-insight-competitor-analysis.xml
+│   ├── market-insight-go-to-market-strategy.xml
+│   ├── market-insight-market-research.xml
+│   ├── market-insight-pricing-strategy.xml
+│   ├── market-insight-user-validation.xml
+│   ├── market-insight-value-proposition.xml
+│   ├── operations-specialist-generate-internal-report.xml
+│   ├── operations-specialist-incident-response.xml
+│   ├── operations-specialist-qa-audit.xml
+│   ├── operations-specialist-system-monitor.xml
+│   ├── operations-specialist-test-plan.xml
+│   ├── public-sector-mentor-cross-agency-coord.xml
+│   ├── public-sector-mentor-funding-grants.xml
+│   ├── public-sector-mentor-gov-structure.xml
+│   ├── public-sector-mentor-legal-compliance.xml
+│   ├── public-sector-mentor-policy-interpret.xml
+│   ├── public-sector-mentor-procurement-processes.xml
+│   └── public-sector-mentor-public-value.xml
+├── templates
+└── workflows
+    ├── current_wf
+    ├── full-hackathon-workflow
+    ├── hackathon-kickoff
+    ├── hackathon-retrospective
+    ├── idea-generation
+    ├── presentation-prep
+    └── solution-development
+
 ```
 
 ## 配置
@@ -156,27 +232,53 @@ mhp/
 
 主要設定：無 (No user-configurable fields)
 
-## 範例
 
-### 範例 1：黑客松啟動
 
-透過 `hackathon-kickoff` 工作流程，團隊可以系統性地啟動黑客松專案，從問題定義到初步規劃。
+## gov_openapi_agent 啟用與使用範例
 
-## 開發路線圖
+### 啟用 gov_openapi_agent
 
-- [ ] 建立「解決方案開發工作流程」
-- [ ] 建立「成果展示準備工作流程」
-- [ ] 建立「黑客松回顧工作流程」
-- [ ] 建立所有規劃的專家代理程式
+1.  **複製專案**：
+    ```bash
+    git clone https://github.com/wuulong/gov_openapi_agent
+    ```
+2.  **啟用 gov_opendata_platform**：
+    ```bash
+    cd gov_opendata_platform && uvicorn gov_opendata_platform:app --reload --port 8801
+    ```
+    *   可能需要編輯 `config/agent_config.yaml`，確保 `enable_platform` 中包含 `gov_opendata_platform_api`：
+        ```yaml
+        enable_platform:
+          - gov_opendata_platform_api
+        ```
+3.  **啟用 gov_openapi_agent mcp server**：
+    *   編輯 `.gemini/settings.json`，新增 `mcpServers` 設定：
+        ```json
+         "mcpServers": {
+            "gov-openapi-agent-mcp":{
+              "url":"http://127.0.0.1:8800/sse"
+            }
+          },
+        ```
+    *   啟動伺服器：
+        ```bash
+        python agent_mcp_server.py --transport sse --port 8800
+        ```
 
-## 貢獻
+### 使用 gov_openapi_agent - 方法1
 
-若要擴展此模組：
+```
+use gov-openapi-agent-mcp: 請問有什麼跟水庫相關的資料集
+ @docs/file_based_open_data_method.md
+請問寶二水庫目前的水位是多少
+```
 
-1.  使用 `create-agent` 工作流程添加新的代理程式。
-2.  使用 `create-workflow` 工作流程添加新的工作流程。
-3.  透過 Pull Request 提交改進。
+### 使用 gov_openapi_agent - 方法2
 
-## 作者
+```
+/bmad-task-mhp-data-expert-analyze-opendata 請問有什麼跟水庫相關的資料集
+/bmad-task-mhp-data-expert-analyze-opendata 請問寶二水庫目前的水位是多少
+- 先找水庫相關資料集
+- 水庫水情資料
+```
 
-由 BMad 於 2025年11月1日 星期六 建立。
