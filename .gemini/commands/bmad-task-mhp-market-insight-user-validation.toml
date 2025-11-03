@@ -1,0 +1,8 @@
+description = "Executes the Market Insight User Validation task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/market-insight-user-validation.xml
+
+Follow all instructions and complete the task as defined.
+"""

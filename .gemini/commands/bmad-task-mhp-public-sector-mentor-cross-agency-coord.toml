@@ -1,0 +1,8 @@
+description = "Executes the Public Sector Mentor Cross Agency Coord task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/public-sector-mentor-cross-agency-coord.xml
+
+Follow all instructions and complete the task as defined.
+"""

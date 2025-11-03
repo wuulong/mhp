@@ -1,0 +1,8 @@
+description = "Executes the External Relations Specialist Generate External Report task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/external-relations-specialist-generate-external-report.xml
+
+Follow all instructions and complete the task as defined.
+"""

@@ -1,0 +1,8 @@
+description = "Executes the Design Maestro User Test task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/design-maestro-user-test.xml
+
+Follow all instructions and complete the task as defined.
+"""

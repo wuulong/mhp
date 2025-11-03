@@ -1,0 +1,8 @@
+description = "Executes the Operations Specialist System Monitor task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/operations-specialist-system-monitor.xml
+
+Follow all instructions and complete the task as defined.
+"""

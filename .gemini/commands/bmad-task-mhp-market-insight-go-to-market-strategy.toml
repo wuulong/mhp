@@ -1,0 +1,8 @@
+description = "Executes the Market Insight Go To Market Strategy task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/market-insight-go-to-market-strategy.xml
+
+Follow all instructions and complete the task as defined.
+"""

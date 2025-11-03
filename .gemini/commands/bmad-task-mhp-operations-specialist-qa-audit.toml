@@ -1,0 +1,8 @@
+description = "Executes the Operations Specialist Qa Audit task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/operations-specialist-qa-audit.xml
+
+Follow all instructions and complete the task as defined.
+"""

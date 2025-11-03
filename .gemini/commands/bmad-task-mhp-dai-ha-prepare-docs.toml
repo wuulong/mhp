@@ -1,0 +1,8 @@
+description = "Executes the Dai Ha Prepare Docs task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/dai-ha-prepare-docs.xml
+
+Follow all instructions and complete the task as defined.
+"""

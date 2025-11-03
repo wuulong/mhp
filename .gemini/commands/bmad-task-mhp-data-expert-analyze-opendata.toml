@@ -1,0 +1,8 @@
+description = "Executes the Data Expert Analyze Opendata task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/data-expert-analyze-opendata.xml
+
+Follow all instructions and complete the task as defined.
+"""

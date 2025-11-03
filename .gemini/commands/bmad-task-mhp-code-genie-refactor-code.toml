@@ -1,0 +1,8 @@
+description = "Executes the Code Genie Refactor Code task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/code-genie-refactor-code.xml
+
+Follow all instructions and complete the task as defined.
+"""

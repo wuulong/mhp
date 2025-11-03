@@ -1,0 +1,8 @@
+description = "Executes the Market Insight Pricing Strategy task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/market-insight-pricing-strategy.xml
+
+Follow all instructions and complete the task as defined.
+"""

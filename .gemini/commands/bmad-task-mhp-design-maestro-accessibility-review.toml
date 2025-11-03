@@ -1,0 +1,8 @@
+description = "Executes the Design Maestro Accessibility Review task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/design-maestro-accessibility-review.xml
+
+Follow all instructions and complete the task as defined.
+"""

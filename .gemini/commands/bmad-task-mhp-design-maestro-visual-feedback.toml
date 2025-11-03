@@ -1,0 +1,8 @@
+description = "Executes the Design Maestro Visual Feedback task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/design-maestro-visual-feedback.xml
+
+Follow all instructions and complete the task as defined.
+"""

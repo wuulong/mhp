@@ -1,0 +1,8 @@
+description = "Executes the Design Maestro Design Principles task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/design-maestro-design-principles.xml
+
+Follow all instructions and complete the task as defined.
+"""

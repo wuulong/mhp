@@ -1,0 +1,8 @@
+description = "Executes the Operations Specialist Incident Response task from the BMad Method."
+prompt = """
+Execute the following BMad Method task workflow:
+
+@../mhp/bmad/mhp/tasks/operations-specialist-incident-response.xml
+
+Follow all instructions and complete the task as defined.
+"""
